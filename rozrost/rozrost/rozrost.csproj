@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="application\Grain.cs" />
     <Compile Include="application\GrowthProgram.cs" />
+    <Compile Include="application\GrowthStrategy.cs" />
+    <Compile Include="application\MonteCarloGrowthStrategy.cs" />
+    <Compile Include="application\MooreGrowthStrategy.cs" />
+    <Compile Include="application\More2GrowthStrategy.cs" />
+    <Compile Include="application\SRXMCGrowthStrategy.cs" />
+    <Compile Include="application\StrategyHelper.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
